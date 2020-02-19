@@ -1,0 +1,45 @@
+.main.place-mode, .main.place-mode .leaflet-grab {
+  cursor: url("../img/cat-cursor.png") 16 16, auto;
+}
+
+.map {
+  width: 800px;
+  height: 600px;
+}
+
+.highlight-row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  padding-left: 8px;
+  align-items: center;
+}
+
+.colors {
+  display: flex;
+  flex-direction: row;
+  margin-left: 8px;
+}
+
+.color-cell {
+  width: 24px;
+  height: 24px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.color-cell.selected {
+  border: 1px solid #000;
+}
+
+.color-cell.color-grey {
+  background: grey;
+}
+
+.color-cell.color-orange {
+  background: orange;
+}
+
+.color-cell.color-yellow {
+  background: yellow;
+}
